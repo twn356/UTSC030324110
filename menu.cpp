@@ -5,11 +5,11 @@ using namespace std;
 
 void dMenu(){
 system("cls");
-cout<<"Aplikasi Tampilan Menu"<<"\n";       
-cout<<"1. Menu Pertama"<<"\n";            
-cout<<"2. Menu Kedua"<<"\n";            
-cout<<"3. Menu Ketiga"<<"\n";           
-cout<<"4. Menu Keempat"<<"\n";            
+cout<<"Aplikasi Sorting Bubble"<<"\n";       
+cout<<"1. Memasukan Data"<<"\n";            
+cout<<"2. Menampilkan data"<<"\n";            
+cout<<"3. Sorting"<<"\n";           
+cout<<"4. Mingyuuu"<<"\n";            
 cout<<"5. Exit"<<"\n";           
 cout<<"Masukan angka :";        
 
@@ -21,6 +21,11 @@ cout<<"hallo saya menu "<<pesan;
 getch();
 }
 
+void mingyuuu(){
+  system("cls");
+  cout <<"minyuuu saharanghae";
+  getch();
+}
 
 int main() {
 char pl;
@@ -43,7 +48,7 @@ do
     /* code */
     break;  
    case '4':
-    mPertama("ke- empat");
+   mingyuuu ;
     /* code */
     break;  
   case '5':
